@@ -1,12 +1,15 @@
-# Awesome-Account-Based-Marketing
+# Awesome Account-Based Marketing (ABM)
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ![Awesome Account-Based Marketing Banner](assets/banner.svg)
 
-## Similar Projects to Account-Based Marketing (ABM) Platforms
+A curated list of awesome **Account-Based Marketing (ABM)** platforms, open-source GTM software, self-hosted marketing automation tools, B2B data enrichment solutions, and web analytics stacks.
 
-**Account-Based Marketing (ABM)** platforms help B2B teams identify target accounts, capture intent signals, enrich data, personalize outreach, orchestrate multi-channel campaigns, and measure account-level engagement and pipeline impact. Leading commercial tools include 6sense, Demandbase, RollWorks, Terminus, Triblio, Factors.ai, MadKudu, Metadata, Albacross, and Jabmo.
+## 🎯 What is Account-Based Marketing?
 
-Below is a **curated list** of notable platforms and their open-source equivalents. Full end-to-end commercial-grade ABM platforms with proprietary intent graphs are rare in pure open source, so the emphasis is on **open-source building blocks** (marketing automation, CRM, analytics, enrichment, and outreach) that teams can combine into a self-hosted ABM stack.
+**Account-Based Marketing (ABM)** is a strategic approach to B2B marketing where marketing and sales teams collaborate to target specific, high-value accounts. ABM platforms help identify target accounts, capture intent signals, enrich data, personalize outreach, orchestrate multi-channel campaigns, and measure account-level engagement and pipeline impact. 
+
+Below is a curated comparison of leading commercial SaaS platforms and open-source equivalents that teams can combine into a self-hosted ABM stack.
 
 ## 🏢 SaaS / Hosted Platforms
 

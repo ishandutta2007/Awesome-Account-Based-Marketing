@@ -1,5 +1,7 @@
 # Awesome-Account-Based-Marketing
 
+![Awesome Account-Based Marketing Banner](assets/banner.svg)
+
 ## Similar Projects to Account-Based Marketing (ABM) Platforms
 
 **Account-Based Marketing (ABM)** platforms help B2B teams identify target accounts, capture intent signals, enrich data, personalize outreach, orchestrate multi-channel campaigns, and measure account-level engagement and pipeline impact. Leading commercial tools include 6sense, Demandbase, RollWorks, Terminus, Triblio, Factors.ai, MadKudu, Metadata, Albacross, and Jabmo.

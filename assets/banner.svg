@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+
+    <!-- Text / Glow Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+
+    <!-- Node Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Animations -->
+    <style>
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.4; }
+        50% { transform: scale(1.15); opacity: 0.8; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -40; }
+      }
+      .node {
+        animation: pulse 4s ease-in-out infinite;
+      }
+      .node-delayed {
+        animation: pulse 4s ease-in-out infinite;
+        animation-delay: 2s;
+      }
+      .floating-title {
+        animation: float 6s ease-in-out infinite;
+      }
+      .connecting-line {
+        stroke-dasharray: 8, 4;
+        animation: dash 5s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.08">
+    <path d="M 0,50 L 1200,50 M 0,100 L 1200,100 M 0,150 L 1200,150 M 0,200 L 1200,200 M 0,250 L 1200,250 M 0,300 L 1200,300 M 0,350 L 1200,350" stroke="#ffffff" stroke-width="1" />
+    <path d="M 100,0 L 100,400 M 200,0 L 200,400 M 300,0 L 300,400 M 400,0 L 400,400 M 500,0 L 500,400 M 600,0 L 600,400 M 700,0 L 700,400 M 800,0 L 800,400 M 900,0 L 900,400 M 1000,0 L 1000,400 M 1100,0 L 1100,400" stroke="#ffffff" stroke-width="1" />
+  </g>
+
+  <!-- ABM Funnel / Account Intelligence Graphic Element (Right Side) -->
+  <g transform="translate(850, 200)">
+    <!-- Connecting dashed lines -->
+    <line x1="-150" y1="-80" x2="0" y2="-100" stroke="#38bdf8" stroke-width="2" class="connecting-line" opacity="0.6" />
+    <line x1="-100" y1="80" x2="100" y2="40" stroke="#a855f7" stroke-width="2" class="connecting-line" opacity="0.6" />
+    <line x1="0" y1="-100" x2="120" y2="-40" stroke="#f43f5e" stroke-width="2" class="connecting-line" opacity="0.6" />
+    <line x1="120" y1="-40" x2="100" y2="40" stroke="#38bdf8" stroke-width="2" class="connecting-line" opacity="0.6" />
+    <line x1="0" y1="-100" x2="-100" y2="80" stroke="#a855f7" stroke-width="2" class="connecting-line" opacity="0.6" />
+
+    <!-- Nodes representing Target Accounts & Leads -->
+    <circle cx="0" cy="-100" r="28" fill="#38bdf8" opacity="0.6" filter="url(#glow)" class="node" />
+    <circle cx="0" cy="-100" r="14" fill="#ffffff" />
+
+    <circle cx="-150" cy="-80" r="20" fill="#a855f7" opacity="0.5" filter="url(#glow)" class="node-delayed" />
+    <circle cx="-150" cy="-80" r="10" fill="#ffffff" />
+
+    <circle cx="120" cy="-40" r="24" fill="#f43f5e" opacity="0.6" filter="url(#glow)" class="node-delayed" />
+    <circle cx="120" cy="-40" r="12" fill="#ffffff" />
+
+    <circle cx="-100" cy="80" r="22" fill="#38bdf8" opacity="0.5" filter="url(#glow)" class="node" />
+    <circle cx="-100" cy="80" r="11" fill="#ffffff" />
+
+    <circle cx="100" cy="40" r="26" fill="#a855f7" opacity="0.6" filter="url(#glow)" class="node" />
+    <circle cx="100" cy="40" r="13" fill="#ffffff" />
+
+    <!-- Core Target Center -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3" />
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2" />
+    <polygon points="0,-15 -13,10 13,10" fill="#f43f5e" transform="rotate(45)" />
+  </g>
+
+  <!-- Typography / Title -->
+  <g transform="translate(80, 220)" class="floating-title">
+    <text x="0" y="-30" font-family="'Outfit', 'Inter', system-ui, sans-serif" font-weight="900" font-size="64" fill="url(#textGrad)" letter-spacing="1">AWESOME</text>
+    <text x="0" y="35" font-family="'Outfit', 'Inter', system-ui, sans-serif" font-weight="800" font-size="44" fill="#ffffff" letter-spacing="0.5">Account-Based Marketing</text>
+    <text x="0" y="80" font-family="'Inter', system-ui, sans-serif" font-weight="400" font-size="18" fill="#94a3b8" letter-spacing="1">A CURATED LIST OF ABM PLATFORMS &amp; OPEN-SOURCE STACKS</text>
+  </g>
+</svg>

@@ -8,16 +8,18 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 
 ## 🏢 SaaS / Hosted Platforms
 
-- **[6sense](https://6sense.com/)** — AI-powered ABM platform focused on predictive account scoring, intent data, and orchestration across advertising and sales.
-- **[Demandbase](https://www.demandbase.com/)** — Enterprise ABM suite with account identification, intent, personalization, and advertising activation.
-- **[RollWorks](https://www.rollworks.com/)** (part of NextRoll) — ABM advertising and account-based advertising platform popular with mid-market teams.
-- **[Terminus](https://terminus.com/)** — ABM platform emphasizing multi-channel advertising, website personalization, and sales alignment.
-- **[Triblio](https://triblio.com/)** — Account-based orchestration and personalization platform.
-- **[Factors.ai](https://www.factors.ai/)** — Account intelligence and analytics platform focused on website visitor identification and attribution.
-- **[MadKudu](https://www.madkudu.com/)** — Predictive lead and account scoring platform that feeds into CRM and marketing tools.
-- **[Metadata](https://www.metadata.io/)** — ABM campaign automation and audience activation platform.
-- **[Albacross](https://albacross.com/)** — Website visitor identification and account-based advertising focused especially on European markets.
-- **[Jabmo](https://jabmo.com/)** — ABM platform specializing in account-based advertising and engagement.
+| Platform | Description | Pricing | Free Tier / Limits |
+| :--- | :--- | :--- | :--- |
+| **[6sense](https://6sense.com/)** | AI-powered ABM platform focused on predictive account scoring, intent data, and orchestration across advertising and sales. | Custom pricing (estimated $50,000–$300,000+/year) | No free tier |
+| **[Demandbase](https://www.demandbase.com/)** | Enterprise ABM suite with account identification, intent, personalization, and advertising activation. | Custom pricing (starts at ~$18k–$24k/year; median ~$65k/year) | No free tier |
+| **[RollWorks](https://www.rollworks.com/)** (part of NextRoll) | ABM advertising and account-based advertising platform popular with mid-market teams. | Custom pricing (estimated $13k–$120k+/year) | No free tier |
+| **[Terminus](https://terminus.com/)** | ABM platform emphasizing multi-channel advertising, website personalization, and sales alignment. | Custom pricing (starts at ~$23k/year, up to $250k+/year) | No free tier |
+| **[Triblio](https://triblio.com/)** | Account-based orchestration and personalization platform. | Custom pricing (starts at ~$30,000/year) | No free tier |
+| **[Factors.ai](https://www.factors.ai/)** | Account intelligence and analytics platform focused on website visitor identification and attribution. | Paid plans start at $199/month (billed annually) | Legacy free plan (limited to 3 user seats, 200 identified companies/month) |
+| **[MadKudu](https://www.madkudu.com/)** | Predictive lead and account scoring platform that feeds into CRM and marketing tools. | Paid plans start at $1,999/month (billed annually) | No free tier (free trial available) |
+| **[Metadata](https://www.metadata.io/)** | ABM campaign automation and audience activation platform. | Custom pricing (estimated $20,000–$100,000+/year) | No free tier |
+| **[Albacross](https://albacross.com/)** | Website visitor identification and account-based advertising focused especially on European markets. | Paid plans start at €59/month (billed annually) | No free tier (14-day free trial available) |
+| **[Jabmo](https://jabmo.com/)** | ABM platform specializing in account-based advertising and engagement. | Custom pricing (starts at ~$30,000/year) | No free tier |
 
 ## 🔓 Open-Source Software
 

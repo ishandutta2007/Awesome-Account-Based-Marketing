@@ -37,22 +37,22 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 - **[OpenOutreach](https://github.com/eracle/OpenOutreach)** [![GitHub stars](https://img.shields.io/github/stars/eracle/OpenOutreach?style=social&color=white)](https://github.com/eracle/OpenOutreach/stargazers) — Open-source AI-powered B2B lead generation and email outreach platform designed for self-hosting.
 - **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** [![GitHub stars](https://img.shields.io/github/stars/laudspeaker/laudspeaker?style=social&color=white)](https://github.com/laudspeaker/laudspeaker/stargazers) — Open-source customer engagement and product onboarding platform (visual journey builder, multi-channel messaging). Useful for account nurture and product-led ABM motions (note: check current maintenance status).
 
-### Building a Practical Open-Source ABM Stack
+### 🛠️ Building a Practical Open-Source ABM Stack
 A common approach is to combine:
-1. **Mautic** (or SuiteCRM) for campaigns, scoring, and nurture  
-2. **Twenty / SuiteCRM / EspoCRM** as the account/contact system of record  
-3. **PostHog or Matomo** for behavioral and website analytics  
-4. Open-source or low-cost enrichment + outbound tools for contact data and sequencing  
+1. 📣 **Mautic** (or SuiteCRM) for campaigns, scoring, and nurture  
+2. 🗃️ **Twenty / SuiteCRM / EspoCRM** as the account/contact system of record  
+3. 📈 **PostHog or Matomo** for behavioral and website analytics  
+4. 🔌 Open-source or low-cost enrichment + outbound tools for contact data and sequencing  
 
 This stack gives strong control over data and cost while covering core ABM workflows (identify → engage → convert → measure).
 
 ---
 
-**How to contribute**  
+**🤝 How to contribute**  
 Fork this repository, add a new project (with link + short description + category), and open a pull request.  
 Prefer actively maintained open-source projects that support account-centric marketing, scoring, campaigns, or related GTM workflows.
 
-**License**  
+**📄 License**  
 This list is public domain / CC0. Feel free to copy into your own awesome list or README.
 
-Star the projects you find useful — open-source building blocks for ABM and GTM continue to improve! 🎯
+Star the projects you find useful — open-source building blocks for ABM and GTM continue to improve! 🎯🚀

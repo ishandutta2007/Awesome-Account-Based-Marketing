@@ -23,24 +23,17 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 
 ## 🔓 Open-Source Software
 
-### Marketing Automation & ABM Orchestration
-- **[Mautic](https://github.com/mautic/mautic)** — The leading open-source marketing automation platform (GPL). Supports campaigns, lead scoring, segmentation, landing pages, and multichannel messaging. Community and commercial plugins add strong company-centric / ABM capabilities (Company Segments, Company Tags, Company Points, Company Timeline).
-- **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** — Open-source customer engagement and product onboarding platform (visual journey builder, multi-channel messaging). Useful for account nurture and product-led ABM motions (note: check current maintenance status).
-
-### CRM & Account Management
-- **[Twenty](https://github.com/twentyhq/twenty)** — Modern open-source CRM (high star count) designed as a Salesforce/HubSpot alternative. Excellent foundation for account and contact management in an ABM stack.
-- **[SuiteCRM](https://github.com/SuiteCRM/SuiteCRM)** — Mature, feature-rich open-source CRM (AGPL) with campaigns, target lists, workflows, and strong customization. Frequently used as the system of record for accounts.
-- **[EspoCRM](https://www.espocrm.com/)** — Flexible open-source CRM with good no-code customization and sales/marketing tools.
-- **[Odoo CRM](https://www.odoo.com/)** (Community Edition) — Part of the broader open-source Odoo suite; useful when you want CRM + marketing + other business apps together.
-
-### Analytics, Intent & Website Insights
-- **[PostHog](https://github.com/PostHog/posthog)** — Open-source product analytics platform with web analytics, session replay, feature flags, and data warehouse capabilities. Can power account-level behavioral insights.
-- **[Matomo](https://github.com/matomo-org/matomo)** — Privacy-focused open-source web analytics (Google Analytics alternative) useful for tracking target-account website engagement.
-
-### Outreach, Lead Generation & Supporting Tools
-- **[OpenOutreach](https://openoutreach.app/)** — Open-source AI-powered B2B lead generation and email outreach platform designed for self-hosting.
-- Various open-source GTM / lead automation projects on GitHub (search for “GTM engine”, “lead generation AI”, or “outbound agent”) that combine scraping, scoring, and personalized outreach.
-- **Listmonk**, **Postal**, and other open-source email platforms for high-volume or controlled outbound.
+- **[Twenty](https://github.com/twentyhq/twenty)** [![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) — Modern open-source CRM (high star count) designed as a Salesforce/HubSpot alternative. Excellent foundation for account and contact management in an ABM stack.
+- **[Odoo CRM](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) — Part of the broader open-source Odoo suite; useful when you want CRM + marketing + other business apps together.
+- **[PostHog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) — Open-source product analytics platform with web analytics, session replay, feature flags, and data warehouse capabilities. Can power account-level behavioral insights.
+- **[Listmonk](https://github.com/knadh/listmonk)** [![GitHub stars](https://img.shields.io/github/stars/knadh/listmonk?style=social&color=white)](https://github.com/knadh/listmonk/stargazers) — Open-source email newsletter and mailing list manager for high-volume or controlled outbound.
+- **[Postal](https://github.com/postalserver/postal)** [![GitHub stars](https://img.shields.io/github/stars/postalserver/postal?style=social&color=white)](https://github.com/postalserver/postal/stargazers) — A fully featured open source mail delivery platform for incoming & outgoing email.
+- **[Matomo](https://github.com/matomo-org/matomo)** [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers) — Privacy-focused open-source web analytics (Google Analytics alternative) useful for tracking target-account website engagement.
+- **[Mautic](https://github.com/mautic/mautic)** [![GitHub stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers) — The leading open-source marketing automation platform (GPL). Supports campaigns, lead scoring, segmentation, landing pages, and multichannel messaging. Community and commercial plugins add strong company-centric / ABM capabilities (Company Segments, Company Tags, Company Points, Company Timeline).
+- **[SuiteCRM](https://github.com/SuiteCRM/SuiteCRM)** [![GitHub stars](https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=social&color=white)](https://github.com/SuiteCRM/SuiteCRM/stargazers) — Mature, feature-rich open-source CRM (AGPL) with campaigns, target lists, workflows, and strong customization. Frequently used as the system of record for accounts.
+- **[EspoCRM](https://github.com/espocrm/espocrm)** [![GitHub stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers) — Flexible open-source CRM with good no-code customization and sales/marketing tools.
+- **[OpenOutreach](https://github.com/eracle/OpenOutreach)** [![GitHub stars](https://img.shields.io/github/stars/eracle/OpenOutreach?style=social&color=white)](https://github.com/eracle/OpenOutreach/stargazers) — Open-source AI-powered B2B lead generation and email outreach platform designed for self-hosting.
+- **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** [![GitHub stars](https://img.shields.io/github/stars/laudspeaker/laudspeaker?style=social&color=white)](https://github.com/laudspeaker/laudspeaker/stargazers) — Open-source customer engagement and product onboarding platform (visual journey builder, multi-channel messaging). Useful for account nurture and product-led ABM motions (note: check current maintenance status).
 
 ### Building a Practical Open-Source ABM Stack
 A common approach is to combine:
